@@ -1,0 +1,12 @@
+[submodule "lib/twinThing"]
+	path = lib/twinThing
+	url = https://github.com/jondurrant/twinThing
+[submodule "lib/https:/github.com/rafagafe/tiny-json"]
+	path = lib/https:/github.com/rafagafe/tiny-json
+	url = https://github.com/rafagafe/json-maker
+[submodule "lib/json-maker"]
+	path = lib/json-maker
+	url = https://github.com/rafagafe/json-maker
+[submodule "lib/tiny-json"]
+	path = lib/tiny-json
+	url = https://github.com/rafagafe/tiny-json
