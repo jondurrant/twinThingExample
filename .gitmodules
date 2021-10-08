@@ -1,12 +1,24 @@
 [submodule "lib/twinThing"]
-	path = lib/twinThing
+	path = StdioUSB/lib/twinThing
 	url = https://github.com/jondurrant/twinThing
 [submodule "lib/https:/github.com/rafagafe/tiny-json"]
-	path = lib/https:/github.com/rafagafe/tiny-json
+	path = StdioUSB/lib/https:/github.com/rafagafe/tiny-json
 	url = https://github.com/rafagafe/json-maker
 [submodule "lib/json-maker"]
-	path = lib/json-maker
+	path = StdioUSB/lib/json-maker
 	url = https://github.com/rafagafe/json-maker
 [submodule "lib/tiny-json"]
-	path = lib/tiny-json
+	path = StdioUSB/lib/tiny-json
 	url = https://github.com/rafagafe/tiny-json
+[submodule "UartThreaded/lib/PicoLED"]
+	path = UartThreaded/lib/PicoLED
+	url = https://github.com/ForsakenNGS/PicoLED
+[submodule "UartThreaded/lib/tiny-json"]
+	path = UartThreaded/lib/tiny-json
+	url = https://github.com/rafagafe/tiny-json
+[submodule "UartThreaded/lib/json-maker"]
+	path = UartThreaded/lib/json-maker
+	url = https://github.com/rafagafe/json-maker
+[submodule "UartThreaded/lib/twinThing"]
+	path = UartThreaded/lib/twinThing
+	url = https://github.com/jondurrant/twinThing

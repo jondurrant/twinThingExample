@@ -99,7 +99,7 @@ void StateExample::setRGB(unsigned char r, unsigned char g, unsigned char b){
  */
 char* StateExample::jsonOn(char *buf, unsigned int len){
 	char *p = buf;
-    p = json_bool( p, "on", getOn());
+    p = json_bool( p, "on", getOn(), &len);
     return p;
 }
 
@@ -111,11 +111,11 @@ char* StateExample::jsonOn(char *buf, unsigned int len){
  */
 char* StateExample::jsonRGB(char *buf, unsigned int len){
 	char *p = buf;
-    p = json_arrOpen( p, "rgb");
+    p = json_arrOpen( p, "rgb", &len);
     for (unsigned char i=0; i < 3; i++){
-    	p = json_uint( p, NULL, getRGB()[i] );
+    	p = json_uint( p, NULL, getRGB()[i], &len );
     }
-    p = json_arrClose( p);
+    p = json_arrClose( p, &len);
     return p;
 }
 
