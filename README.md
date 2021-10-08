@@ -1,9 +1,18 @@
 # twinThingExample
 Example Raspberry PICO IOT or Digital Twin project using twinThing library
 
+
+## Simple StdIO example
 Simple example of using the library to sync state with a Raspberry PICO as thing
 device over USB. Code was written to run on a Raspberry PI, you may need to change
 the USB serial devices for other hosts
+
+## UART Example
+Example using Uart 0 on the PICO talking to the Uart on PI GPIO Pins. This 
+example uses a threaded module in the Python code to manage reading form the
+Uart.
+
+## Examples based on gaked RGB lamp
 
 Code simulates holding RGB colours of a light and then turns on and off the light.
 In reality it only turns on the onboard lED on the Raspberry PICO.
